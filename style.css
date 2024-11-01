@@ -1,0 +1,55 @@
+/* General body styling */
+body {
+    background-color: #ab8cde; /* צבע רקע לבחירתכם */
+    text-align: center; /* מרכז את כל הטקסט בעמוד */
+    font-family: Arial, sans-serif; /* גופן כללי */
+    color: #863186; /* צבע טקסט כללי */
+    margin: 0; /* הסרת מרווחי ברירת מחדל */
+    padding: 0; /* הסרת מרווחי ברירת מחדל */
+    box-sizing: border-box; /* טיפול נכון במרווחים */
+    direction: rtl; /* יישור הטקסט לימין */
+}
+
+/* Styling for the main heading (h1) */
+h1 {
+    color: #52134c; /* צבע כותרת ראשית לבחירתכם */
+}
+
+/* Styling for images */
+img {
+    max-width: 30%; /* התאמת רוחב התמונה למסך */
+    height: auto; /* שמירה על יחס גובה-רוחב של התמונה */
+    margin: 20px 0; /* מרווח מסביב לתמונה */
+}
+
+/* Styling for paragraphs (p) */
+p {
+    margin: 20px auto; /* מרווח בין הפסקאות */
+    max-width: 600px; /* רוחב מרבי לפסקאות */
+    line-height: 1.6; /* גובה שורות לפסקאות */
+}
+
+/* Media Queries for Responsive Design */
+/* Adjustments for screens smaller than 768 pixels */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5em; /* שינוי גודל גופן הכותרת הראשית */
+    }
+
+    p {
+        max-width: 90%; /* התאמת רוחב הפסקאות */
+        font-size: 1em; /* שינוי גודל גופן הפסקאות */
+    }
+}
+
+/* Adjustments for screens smaller than 480 pixels */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2em; /* שינוי גודל גופן הכותרת הראשית */
+    }
+
+    p {
+        max-width: 90%; /* התאמת רוחב הפסקאות */
+        font-size: 0.9em; /* שינוי גודל גופן הפסקאות */
+    }
+}
